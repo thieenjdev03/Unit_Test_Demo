@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 50%;
+  padding: 20px;
+}
+.homepageSection{ 
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+.textSection{
+  display: flex;
+  flex-direction: column;
+}
+.border_solid_black_1px{ 
+  border: solid black 1px ;
+  padding: 10px;
+}
+.mt_10{
+margin-top: 10px;
+}
